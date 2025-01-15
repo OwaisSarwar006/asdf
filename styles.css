@@ -1,0 +1,140 @@
+/* Reset default styling for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Text color */
+  }
+  
+  /* Header styling */
+  header {
+    background: #4CAF50; /* Green background for header */
+    color: #fff; /* White text color */
+    padding: 1.5rem; /* Padding around content */
+    text-align: center;
+  }
+  
+  /* Navigation links styling */
+  header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
+  /* Hero section styling */
+  .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover; /* Background image */
+    color: white; /* White text color */
+    padding: 100px 20px; /* Large padding for hero section */
+    text-align: center;
+  }
+  
+  .hero button {
+    background-color: #f9c74f; /* Button color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero button:hover {
+    background-color: #f9844a; /* Darker on hover */
+  }
+  
+  /* General section styling */
+  section {
+    padding: 40px 20px; /* Space around each section */
+    max-width: 800px; /* Max width to control content width */
+    margin: 20px auto;
+    border-radius: 8px; /* Rounded corners for sections */
+    background: #e8f5e9; /* Light green background */
+  }
+  
+  /* Title styling for each section */
+  h2 {
+    color: #4CAF50; /* Green color for section titles */
+    margin-bottom: 10px;
+  }
+  
+  /* Project item styling */
+  .project-list {
+    display: flex; /* Flex display for projects */
+    flex-direction: column; /* Stack projects vertically */
+  }
+  
+  .project-item {
+    background: #c8e6c9; /* Light green for project items */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space between items */
+    transition: transform 0.3s; /* Animation effect */
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  /* User profile item styling */
+  .profile-list {
+    display: flex; /* Flex display for profiles */
+    flex-direction: column; /* Stack profiles vertically */
+  }
+  
+  .profile-item {
+    background: #c8e6c9; /* Light green for profile items */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space between items */
+    transition: transform 0.3s; /* Animation effect */
+  }
+  
+  .profile-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  /* Testimonials section styling */
+  .testimonial-list {
+    display: flex; /* Flex display for testimonials */
+    flex-direction: column; /* Stack testimonials vertically */
+    margin-top: 20px;
+  }
+  
+  .testimonial-item {
+    background: #e0f7fa; /* Light blue for testimonial items */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space between items */
+  }
+  
+  /* Contact form styling */
+  form {
+    display: flex; /* Flexbox layout for the form */
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  form label {
+    margin: 10px 0 5px; /* Space above and below labels */
+  }
+  
+  form input, form textarea {
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Light border */
+  }
+  
+  footer {
+    text-align
+  
